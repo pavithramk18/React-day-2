@@ -13,7 +13,7 @@ function ComponentDemo(props){
     return <div>
         <p>
             <h1>Hello {props.add} </h1>
-            <h3>Hi {props.add}</h3>
+            <h3 {props.add}</h3>
         </p>
     </div>
 }
